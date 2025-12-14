@@ -27,6 +27,21 @@ def check_id(id: str) -> bool:
     return True
 
 def check_digits_repeated(digits: str, id: str) -> bool:
+    """
+    Check if `digits` are repeated in `id`.
+    
+    Parameters
+    ----------
+    digits : str
+        The digits.
+    id : str
+        The ID.
+    
+    Returns
+    -------
+    bool
+        `False` if digits repeat, `True` otherwise.
+    """
     
     valid = False
     
